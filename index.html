@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('app/js/main');
+    </script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="userCtrl as users">
+    <button ng-click="users.displayName()">Display users</button>
+
+    <table>
+        <thead><th>Name</th><th>Surname</th></thead>
+        <tbody>
+            <tr ng-repeat="user in users.users">
+                <td>{{user.name}}</td>
+                <td>{{user.surname}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
