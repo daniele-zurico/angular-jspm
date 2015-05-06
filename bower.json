@@ -1,0 +1,27 @@
+{
+  "name": "angular-jspm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/daniele-zurico/angular-jspm",
+  "authors": [
+    "Daniele Zurico <daniele.zurico@gmail.com>"
+  ],
+  "description": "angular with ES6 and jspm",
+  "keywords": [
+    "angular",
+    "ES6",
+    "dgeni",
+    "mock",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "dgeni-packages": "https://github.com/angular/dgeni-packages.git#espree"
+  }
+}
