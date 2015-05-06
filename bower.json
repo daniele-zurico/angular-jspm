@@ -20,8 +20,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "devDependencies": {
-    "dgeni-packages": "https://github.com/angular/dgeni-packages.git#espree"
-  }
+  ]
 }

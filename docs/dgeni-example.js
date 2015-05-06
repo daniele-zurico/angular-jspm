@@ -27,7 +27,7 @@ module.exports = new Package('dgeni-example', [
 		readFilesProcessor.sourceFiles = [
 			{
 				// Process all js files in `src` and its subfolders ...
-				include: 'src/**/*.js',
+				include: 'app/**//**/*.js',
 				// ... except for this one!
 				exclude: 'src/do-not-read.js',
 				// When calculating the relative path to these files use this as the base path.
